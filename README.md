@@ -239,12 +239,11 @@ The multi-hop pipeline evaluates 3-step tool-call chains:
 ```
 ### 執行範例
 
-```bash
-python test_advanced_robust.py \
+```python test_advanced_robust.py \
   --backend openai \
   --model deepseek-chat \
   --dataset data/locomo_mini.json \
   --ratio 1.0 \
-  --retrieve_k 5 \
-  --output runX_mini.json
+  --retrieve_k 2 \
+  --output ablationX.json
 ```
